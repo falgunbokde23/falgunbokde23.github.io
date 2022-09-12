@@ -212,14 +212,56 @@ header.shadow {
   transform: scale(1.5);
 }
 
-
+.heading1 {
+  text-align: center;
+  margin-top: -130px;
+  margin-bottom: 40px;
+}
+#container4{
+  padding-top: 150px;
+  width: 70%;
+  margin: auto;
+}
+#box {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 45px;
+}
+#box>div{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#box>div>img {
+  width: 100%;
+}
+#box>div>img:hover{
+  cursor: pointer;
+}
+.button {
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: rgb(64,112,244);
+  border: 1px solid rgb(64,112,244);
+  margin-top: 9px;
+}
+.button:hover{
+  background-color: white;
+  color: rgb(64,112,244);
+  border: 1px solid rgb(64,112,244);
+  cursor: pointer;
+}
+.clickMe{
+  text-align: center;
+  padding-top:200px;
+}
 @media only screen and (max-width: 800px){
   #SkillsContainer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-row: 100px;
     gap: 20px;
-    /* border: 1px solid red; */
     margin-top: 60px  ;
   }
   #SkillsContainer img{
@@ -227,6 +269,13 @@ header.shadow {
     height: 100px;
     border-radius: 10%;
   }
+  #box {
+    grid-template-columns: repeat(1,1fr);
+    gap: 45px;
+    }
+    #container5{
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 435px){
