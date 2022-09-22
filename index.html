@@ -9,6 +9,9 @@
     <link rel="icon" type="image/x-icon" href="./documents/Falgun-picc.jpg">
     <!-- Link To CSS -->
     <link rel="stylesheet" href="index.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <!-- Box Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <script src="https://kit.fontawesome.com/32f181d7c4.js" crossorigin="anonymous"></script>
@@ -25,8 +28,8 @@
         <ul class="navbar">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            
+            <li><a href="#tech">Skills</a></li>
+            <li><a href="#skills">TechStack</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
             <div class="bx bx-moon" id="darkmode"></div>
@@ -98,11 +101,78 @@
     <!-- about section ends from here  -->
 
 
-    <!-- skill section start from here  -->
+    <!-- skills section start from here -->
+    <section class="tech" id="tech">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+
+        <div id="front">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h4>FrontEnd Developer</h4>
+                <p>When you visit a website, the design elements you see were created by a front-end devloper.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h4>BackEnd devloper</h4>
+                <p>Who Build and maintain the mechanisms that process data and perform actions on websites.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-brain"></i>
+                <h4>DSA</h4>
+                <p>Data Structure and Algorithm(DSA) is applied in all diciplines of software development.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-comments"></i>
+                <h4>Communication Skills</h4>
+                <p>Ability to use when giving and reciving different kinds of information.</p>
+            </div>
+        </div>
+
+        <h1 class="my">My Advantages</h1>
+        <div id="avd">
+            <div class="benzo">
+                <h1>1200+ <sub>Hrs</sub></h1>
+                <h2>Coding</h2>
+            </div>
+            <div class="benzo">
+                <h1>500+ <sub>Que</sub></h1>
+                <h2>DSA</h2>
+            </div>
+            <div class="benzo">
+                <h1>100+ <sub>Hrs</sub></h1>
+                <h2>Soft Skills</h2>
+            </div>
+            <div class="benzo">
+                <h1>150+</h1>
+                <h2>Git commits</h2>
+            </div>
+            <div class="benzo">
+                <h1>3+</h1>
+                <h2>Collaborative Projects</h2>
+            </div>
+            <div class="benzo">
+                <h1>5+</h1>
+                <h2>Solo Projects</h2>
+            </div>
+        </div>
+        
+        <h1 style="text-align: center; margin-bottom: 15px;">My Github Contribution</h1>
+        <div class="calendar">
+            <!-- Loading stuff -->
+            Loading the data just for you.
+        </div>
+
+
+    </section>
+
+    <!-- skill section ends frome here  -->
+
+    <!-- techstacks section start from here  -->
     <section class="skills" id="skills">
         <div class="heading">
-            <h2>Skills And Framework</h2>
-            <p>Spend more than 1000+hr in Coading and 100+hr in SoftSkills</p>
+            <h2>Tech Stack</h2>
         </div>
         <div id="SkillsContainer">
             <div>
@@ -155,8 +225,8 @@
             </div>
            
         </div>
-    </section>
-    <!-- skill section ends from here  -->
+        </section>
+    <!-- techstack section ends from here  -->
 
 
     <!-- project section start from here  -->
@@ -238,7 +308,23 @@
     <!-- last text  -->
     <p id="copy">Hope you like my portfolio made by <span id="falgun">@ Falgun Bokde</span></p>
     <!-- last text end here  -->
+
 </body>
 </html>
 
 <script src="index.js"></script>
+
+<!-- // github script is here  -->
+<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+        </script>
+        <script>
+        
+            GitHubCalendar(".calendar", "falgunbokde23", { responsive: true });
+        
+            // Use a proxy
+            GitHubCalendar(".calendar", "falgunbokde23", {
+                proxy(username) {
+                    return fetch(`https://your-proxy.com/github?user=${username}`)
+                }
+            })
+</script>
