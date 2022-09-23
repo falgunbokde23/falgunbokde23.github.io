@@ -354,12 +354,13 @@ header.shadow {
   /* background-color: rgb(62, 104, 141);    */
   border-radius: 50%;
   padding-bottom: 10px;
+  cursor: pointer;
 }
 .benzo h2{
   font-size: 15px;
 }
 .benzo:hover{
-  background-color: #033a80;
+  color: #033a80;
 }
 
 
