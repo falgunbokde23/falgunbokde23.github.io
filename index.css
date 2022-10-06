@@ -271,15 +271,7 @@ header.shadow {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
-/* .js-calendar-graph-svg{
-  width: 100%;
-  text-align: center;
-  margin: auto;
-}
-.calendar{
-  text-align: center;
-  margin: auto;
-} */
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -347,11 +339,9 @@ header.shadow {
   margin: auto;
   text-align: center;
   margin-bottom: 40px;
-  /* background-color: antiquewhite; */
 }
 .benzo{
   padding-top: 10px;
-  /* background-color: rgb(62, 104, 141);    */
   border-radius: 50%;
   padding-bottom: 10px;
   cursor: pointer;
@@ -400,7 +390,6 @@ header.shadow {
       display: grid;
       grid-template-columns: repeat(2,1fr);
       grid-template-rows: 200px;
-      /* border: 1px solid red ; */
       margin-bottom: 80px;
       margin-top: 20px;
       gap: 20px;
@@ -414,7 +403,6 @@ header.shadow {
       margin: auto;
       text-align: center;
       margin-bottom: 40px;
-      /* background-color: antiquewhite; */
     }
     
     
@@ -426,7 +414,6 @@ header.shadow {
     grid-template-columns: repeat(2,1fr);
     grid-row: 100px;
     gap: 20px;
-    /* border: 1px solid red; */
     margin-top: 60px  ;
   }
   #SkillsContainer img{
@@ -438,8 +425,7 @@ header.shadow {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: 200px;
-    /* border: 1px solid red ; */
-    margin-bottom: 80px;
+        margin-bottom: 80px;
     margin-top: 20px;
     gap: 20px;
     text-align: center;
@@ -452,7 +438,6 @@ header.shadow {
     margin: auto;
     text-align: center;
     margin-bottom: 40px;
-    /* background-color: antiquewhite; */
   }
   
 }
@@ -559,7 +544,6 @@ header.shadow {
       display: grid;
       grid-template-columns: repeat(1,1fr);
       grid-template-rows: 200px;
-      /* border: 1px solid red ; */
       margin-bottom: 80px;
       margin-top: 20px;
       gap: 20px;
@@ -575,6 +559,5 @@ header.shadow {
       margin: auto;
       text-align: center;
       margin-bottom: 40px;
-      /* background-color: antiquewhite; */
     }
   }

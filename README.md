@@ -44,9 +44,7 @@ Solo Projects
 
 Contact
 Falgun Manoj Bokde
-
 +91 7700059378
-
 falgunbokde@gmail.com
 
  
