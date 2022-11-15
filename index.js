@@ -32,7 +32,7 @@ darkmode.onclick = () => {
 
 
 function contshow4(){
-       window.open(href="./documents/Falgun_ Bokde_Resume.pdf"); 
+       window.open(href="./documents/Falgun_ Bokde_resume.pdf"); 
         }
   let my_cont_4=document.querySelector(".RFAL").addEventListener("click",contshow4)
 
