@@ -120,6 +120,7 @@ header.shadow {
 .home-img img {
   width: 100%;
   transition: 2s;
+  margin-top: 60px;
   border-radius: 50%; width:300px ; margin-left: 60px;
 }
 .home-img img:hover {
